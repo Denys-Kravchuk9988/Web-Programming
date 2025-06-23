@@ -1,0 +1,25 @@
+
+; <<>> DiG 9.18.30-0ubuntu0.22.04.2-Ubuntu <<>> @l.gtld-servers.net puginarug.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42879
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;puginarug.com.			IN	A
+
+;; AUTHORITY SECTION:
+puginarug.com.		172800	IN	NS	dns1.p02.nsone.net.
+puginarug.com.		172800	IN	NS	dns2.p02.nsone.net.
+puginarug.com.		172800	IN	NS	dns3.p02.nsone.net.
+puginarug.com.		172800	IN	NS	dns4.p02.nsone.net.
+
+;; Query time: 56 msec
+;; SERVER: 192.41.162.30#53(l.gtld-servers.net) (UDP)
+;; WHEN: Mon Jun 23 22:08:17 UTC 2025
+;; MSG SIZE  rcvd: 131
+

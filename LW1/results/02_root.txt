@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.18.30-0ubuntu0.22.04.2-Ubuntu <<>> @1.1.1.1 a.root-servers.net
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40415
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;a.root-servers.net.		IN	A
+
+;; ANSWER SECTION:
+a.root-servers.net.	3598724	IN	A	198.41.0.4
+
+;; Query time: 16 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Mon Jun 23 22:08:15 UTC 2025
+;; MSG SIZE  rcvd: 63
+

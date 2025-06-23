@@ -1,0 +1,51 @@
+
+; <<>> DiG 9.18.30-0ubuntu0.22.04.2-Ubuntu <<>> @1.1.1.1 puginarug.com +trace
+; (1 server found)
+;; global options: +cmd
+.			517121	IN	NS	a.root-servers.net.
+.			517121	IN	NS	b.root-servers.net.
+.			517121	IN	NS	c.root-servers.net.
+.			517121	IN	NS	d.root-servers.net.
+.			517121	IN	NS	e.root-servers.net.
+.			517121	IN	NS	f.root-servers.net.
+.			517121	IN	NS	g.root-servers.net.
+.			517121	IN	NS	h.root-servers.net.
+.			517121	IN	NS	i.root-servers.net.
+.			517121	IN	NS	j.root-servers.net.
+.			517121	IN	NS	k.root-servers.net.
+.			517121	IN	NS	l.root-servers.net.
+.			517121	IN	NS	m.root-servers.net.
+.			517121	IN	RRSIG	NS 8 0 518400 20250706170000 20250623160000 53148 . avJfhHx26wSk3OLs3Bb+dDIG3A6N7Pm57IqXMSp9ZcGBdlQDkpPw9HUB TwvOPdQwEEiCuCZyBqr/vBxno0LPoJEKp1zssem7RiKX//ljT8QKaxUx +RIZrLEiJHPjoDCcb9Kh9A27Y8ViT+OBmVfWbGQJlcjG9lVxnOBY8pe7 j3bJtfz6mmkEMfQ+TeD0krhAiI/LqPhcTXz5ynZwm2XmlJeTTXWgSuvM 199CqmJrr7kuvBWMWwfGdalZ8mIhzgihgZKDIB8D+fyD2chtgQcvKo06 ppkvT6nIfjuSmVO8H4vvnAnBCwTym0MuupiGDfItLozSKeB7jHRf/AEL jaGNdA==
+;; Received 525 bytes from 1.1.1.1#53(1.1.1.1) in 16 ms
+
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20250706170000 20250623160000 53148 . JJcHYHt0ps2r1+M48b9+Bw41ExPo/aX2KqtAzr7/lX7nbyKdaaWnE9Yu IQhIhFf0a2jV+cdIZeKmRGwvqVrg7oMfMwXTYpQgm+64zcE+S35TiDF7 K3IFKaFRg3eKPcJBTWtYuia8AvMpuRv5YqUHvfeFLJMsM8bkcldPBDgL zUm6/JR2i1/cG96EDuSwFSoWnp1cqk5cl5c8wIuyqUmrQ3sjFlOom/yY F8DMSIqYMDKWSVT4rRoySLg+6PNvaiHu0mH96mTgRk5PDPOSrx+vXqmn iqNX7D3l3lSv0exwP+pv/+Ej4YgjrBKKpreh9jFFYVSsAPe7l8h1iUwP jqJ4TA==
+;; Received 1173 bytes from 198.41.0.4#53(a.root-servers.net) in 36 ms
+
+puginarug.com.		172800	IN	NS	dns1.p02.nsone.net.
+puginarug.com.		172800	IN	NS	dns2.p02.nsone.net.
+puginarug.com.		172800	IN	NS	dns3.p02.nsone.net.
+puginarug.com.		172800	IN	NS	dns4.p02.nsone.net.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN NSEC3 1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN RRSIG NSEC3 13 2 900 20250628002607 20250620231607 40097 com. v7VtrPRofFFa2qrOa6WpTXwmu2p2DyHT5VyGxZY2Y27OTAOntpNp/1px MPGGUIB8NE6d6TOdqCD+I2Kn+bApQw==
+BOE2A2IQRJH89MQR7N89TB5SN1BI70P1.com. 900 IN NSEC3 1 1 0 - BOE2FNCM9M9V9C25UE2RU07SNEGPESSK NS DS RRSIG
+BOE2A2IQRJH89MQR7N89TB5SN1BI70P1.com. 900 IN RRSIG NSEC3 13 2 900 20250629024847 20250622013847 40097 com. 3Khe+fNiwqMOftPbkibIDedcxn909ygtrkG9YLzr3CvngFVTMe4UZ5a8 Tz4dMZcGM15NRaYhYQLndUX+PfJD1g==
+;; Received 488 bytes from 192.42.93.30#53(g.gtld-servers.net) in 52 ms
+
+puginarug.com.		120	IN	A	3.125.36.175
+puginarug.com.		120	IN	A	3.124.100.143
+;; Received 74 bytes from 198.51.44.66#53(dns3.p02.nsone.net) in 40 ms
+

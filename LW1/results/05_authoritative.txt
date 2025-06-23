@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.18.30-0ubuntu0.22.04.2-Ubuntu <<>> @dns1.p02.nsone.net puginarug.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19028
+;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;puginarug.com.			IN	A
+
+;; ANSWER SECTION:
+puginarug.com.		120	IN	A	3.75.10.80
+puginarug.com.		120	IN	A	3.125.36.175
+
+;; Query time: 40 msec
+;; SERVER: 198.51.44.2#53(dns1.p02.nsone.net) (UDP)
+;; WHEN: Mon Jun 23 22:08:18 UTC 2025
+;; MSG SIZE  rcvd: 74
+

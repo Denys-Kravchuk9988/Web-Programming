@@ -1,0 +1,8 @@
+Server:		dns1.p02.nsone.net
+Address:	198.51.44.2#53
+
+Name:	puginarug.com
+Address: 3.75.10.80
+Name:	puginarug.com
+Address: 3.124.100.143
+
