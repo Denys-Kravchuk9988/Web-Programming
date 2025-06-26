@@ -4,6 +4,7 @@ const CASDOOR_ENDPOINT = process.env.CASDOOR_URL || "";
 const CLIENT_ID = process.env.CLIENT_ID || "";
 const CLIENT_SECRET = process.env.CLIENT_SECRET || "";
 const REDIRECT_URI = `${process.env.REDIRECT_URL}/api/auth/callback`;
+
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
 
