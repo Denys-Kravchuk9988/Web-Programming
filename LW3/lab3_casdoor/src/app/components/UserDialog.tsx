@@ -22,9 +22,9 @@ export const UserDialog: React.FC<{
   };
 
   const logout = async () => {
-    const redirectUri = "https://localhost:3000";
+    const redirectUri = process.env.NEXT_PUBLIC_REDIRECT_URL || "";
 
-    const url = `http://localhost:8000/api/logout?id_token_hint=${id_token}`;
+    const url = `${process.env.NEXT_PUBLIC_CASDOOR_URL}/api/logout?id_token_hint=${id_token}`;
 
     await fetch(url, {
       method: "POST",
